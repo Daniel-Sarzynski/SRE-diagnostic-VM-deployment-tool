@@ -37,7 +37,7 @@ class DiagnosticApp:
             print("="*45)
             print(" [LOCAL SYSTEM UTILITIES]")
             print("1. Run Full System Diagnostics Report")
-            print("2. Parse Custom Application/System Log File")
+            print("2. Parse Log File")
             print(" [AUTOMATED CLOUD DEPLOYMENTS]")
             print("3. Deploy VM")
             print("4. Execute Teardown Routine")

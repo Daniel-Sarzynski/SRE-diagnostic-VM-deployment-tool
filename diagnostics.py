@@ -93,7 +93,7 @@ class LogParser:
             report = [f"--- Log Analysis Report for: {file_path} ---", f"Total Lines Scanned: {total_lines}"]
             for key, count in metrics.items():
                 pct = (count / total_lines * 100) if total_lines > 0 else 0
-                report.append(f" - [{key}]: Found {count} instances ({pct:.2f}% of log traffic)")
+                report.append(f" - [{key}]: Found {count} instances ({pct:.2f}%)")
             
             return "\n".join(report)
             
